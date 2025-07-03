@@ -1,8 +1,3 @@
-// Initialize Lucide icons
-document.addEventListener('DOMContentLoaded', function() {
-    lucide.createIcons();
-});
-
 // Mobile navigation toggle
 const navToggle = document.querySelector('.nav-toggle');
 const navMenu = document.querySelector('.nav-menu');
@@ -16,13 +11,11 @@ if (navToggle && navMenu) {
         navToggle.setAttribute('aria-expanded', expanded);
         
         // Change icon
-        const icon = navToggle.querySelector('[data-lucide]');
         if (expanded) {
-            icon.setAttribute('data-lucide', 'x');
+            navToggle.innerHTML = '✕';
         } else {
-            icon.setAttribute('data-lucide', 'menu');
+            navToggle.innerHTML = '☰';
         }
-        lucide.createIcons();
     });
 }
 
@@ -33,10 +26,7 @@ navLinks.forEach(link => {
         if (navMenu.classList.contains('active')) {
             navMenu.classList.remove('active');
             navToggle.setAttribute('aria-expanded', 'false');
-            
-            const icon = navToggle.querySelector('[data-lucide]');
-            icon.setAttribute('data-lucide', 'menu');
-            lucide.createIcons();
+            navToggle.innerHTML = '☰';
         }
     });
 });
