@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Median - A Party for the Middle</title>
+    <meta name="description" content="The Median political party - bridging divides through compromise and practical solutions for America's future.">
+    <meta name="keywords" content="political party, compromise, voting, democracy, bipartisan, moderate">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <div class="logo-icon">
+                        <i data-lucide="bull"></i>
+                    </div>
+                    <span class="logo-text">The Median</span>
+                </div>
+                <div class="nav-menu">
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#why-median" class="nav-link">Why Median?</a>
+                    <a href="#register" class="nav-link">Register to Vote</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        A Party for the <span class="highlight">Middle</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Breaking through political polarization with practical solutions, 
+                        meaningful compromise, and a commitment to democracy that works for everyone.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#register" class="btn btn-primary">Register to Vote</a>
+                        <a href="#about" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="bull-icon">
+                        <i data-lucide="bull"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About The Median</h2>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i data-lucide="balance-scale"></i>
+                        </div>
+                        <h3>Balance & Compromise</h3>
+                        <p>We believe in finding middle ground and practical solutions that work for all Americans, not just the extremes.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i data-lucide="vote"></i>
+                        </div>
+                        <h3>Swing Vote Power</h3>
+                        <p>Our goal is to secure swing votes in Congress to break deadlocks and push for meaningful bipartisan legislation.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">
+                            <i data-lucide="users"></i>
+                        </div>
+                        <h3>Accessible Democracy</h3>
+                        <p>We're committed to making voting more accessible and equitable for every American citizen.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="why-median" class="why-median">
+            <div class="container">
+                <h2 class="section-title">Why The Two-Party System Fails</h2>
+                <div class="polarization-content">
+                    <div class="polarization-text">
+                        <h3>The Problem with Polarization</h3>
+                        <p>America's political landscape has become increasingly polarized, with both major parties moving toward their extremes. This creates:</p>
+                        <ul class="problem-list">
+                            <li><strong>Legislative Gridlock:</strong> Important issues go unaddressed while parties fight</li>
+                            <li><strong>Voter Disenfranchisement:</strong> Millions feel unrepresented by extreme positions</li>
+                            <li><strong>Media Echo Chambers:</strong> Information silos reinforce existing beliefs</li>
+                            <li><strong>Lack of Accountability:</strong> Safe districts reduce incentive for compromise</li>
+                        </ul>
+                    </div>
+                    <div class="polarization-visual">
+                        <div class="spectrum-diagram">
+                            <div class="spectrum-line"></div>
+                            <div class="spectrum-point left">
+                                <span>Far Left</span>
+                            </div>
+                            <div class="spectrum-point center">
+                                <span>The Median</span>
+                                <div class="median-marker"></div>
+                            </div>
+                            <div class="spectrum-point right">
+                                <span>Far Right</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="solution-text">
+                    <h3>The Median Solution</h3>
+                    <p>By positioning ourselves in the center and securing swing votes, we can:</p>
+                    <ul class="solution-list">
+                        <li>Break legislative deadlocks with practical compromise</li>
+                        <li>Represent the moderate majority often ignored by extremes</li>
+                        <li>Focus on evidence-based policy rather than ideology</li>
+                        <li>Create incentives for bipartisan cooperation</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="register" class="register">
+            <div class="container">
+                <h2 class="section-title">Register to Vote</h2>
+                <p class="register-subtitle">
+                    Your voice matters. Register to vote in your state and join The Median movement.
+                </p>
+                <div class="register-form">
+                    <div class="state-selector">
+                        <label for="state-select">Select your state:</label>
+                        <select id="state-select" class="state-dropdown">
+                            <option value="">Choose your state...</option>
+                            <option value="AL">Alabama</option>
+                            <option value="AK">Alaska</option>
+                            <option value="AZ">Arizona</option>
+                            <option value="AR">Arkansas</option>
+                            <option value="CA">California</option>
+                            <option value="CO">Colorado</option>
+                            <option value="CT">Connecticut</option>
+                            <option value="DE">Delaware</option>
+                            <option value="FL">Florida</option>
+                            <option value="GA">Georgia</option>
+                            <option value="HI">Hawaii</option>
+                            <option value="ID">Idaho</option>
+                            <option value="IL">Illinois</option>
+                            <option value="IN">Indiana</option>
+                            <option value="IA">Iowa</option>
+                            <option value="KS">Kansas</option>
+                            <option value="KY">Kentucky</option>
+                            <option value="LA">Louisiana</option>
+                            <option value="ME">Maine</option>
+                            <option value="MD">Maryland</option>
+                            <option value="MA">Massachusetts</option>
+                            <option value="MI">Michigan</option>
+                            <option value="MN">Minnesota</option>
+                            <option value="MS">Mississippi</option>
+                            <option value="MO">Missouri</option>
+                            <option value="MT">Montana</option>
+                            <option value="NE">Nebraska</option>
+                            <option value="NV">Nevada</option>
+                            <option value="NH">New Hampshire</option>
+                            <option value="NJ">New Jersey</option>
+                            <option value="NM">New Mexico</option>
+                            <option value="NY">New York</option>
+                            <option value="NC">North Carolina</option>
+                            <option value="ND">North Dakota</option>
+                            <option value="OH">Ohio</option>
+                            <option value="OK">Oklahoma</option>
+                            <option value="OR">Oregon</option>
+                            <option value="PA">Pennsylvania</option>
+                            <option value="RI">Rhode Island</option>
+                            <option value="SC">South Carolina</option>
+                            <option value="SD">South Dakota</option>
+                            <option value="TN">Tennessee</option>
+                            <option value="TX">Texas</option>
+                            <option value="UT">Utah</option>
+                            <option value="VT">Vermont</option>
+                            <option value="VA">Virginia</option>
+                            <option value="WA">Washington</option>
+                            <option value="WV">West Virginia</option>
+                            <option value="WI">Wisconsin</option>
+                            <option value="WY">Wyoming</option>
+                            <option value="DC">District of Columbia</option>
+                        </select>
+                        <button id="register-btn" class="btn btn-primary">
+                            <i data-lucide="external-link"></i>
+                            Go to Registration
+                        </button>
+                    </div>
+                    <div class="register-info">
+                        <p>We'll direct you to your state's official voter registration website or provide a downloadable PDF form.</p>
+                        <p><strong>Already registered?</strong> Consider changing your party affiliation to "The Median" where available, or register as Independent to support our cause.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <h2>Ready to Make a Difference?</h2>
+                <p>Join the movement for practical politics and meaningful compromise.</p>
+                <div class="cta-actions">
+                    <a href="#register" class="btn btn-primary">Register to Vote</a>
+                    <a href="#contact" class="btn btn-outline">Get Involved</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i data-lucide="bull"></i>
+                        </div>
+                        <span class="logo-text">The Median</span>
+                    </div>
+                    <p>A political party for the middle, focused on compromise and practical solutions.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#why-median">Why Median?</a></li>
+                        <li><a href="#register">Register to Vote</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: info@themedian.org</p>
+                    <p>Website: themedian.org</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+                        <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 The Median. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
